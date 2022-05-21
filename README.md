@@ -1,21 +1,22 @@
-# ReportsGenerator
+Desafio 02 - Reports Generator - Ignite Elixir
 
-**TODO: Add description**
+Projeto:
 
-## Installation
+* Segundo desafio proposto pelo Ignite na trilha de Elixir da Rocketseat, para praticar e fixar o aprendizado criando o projeto Reports Generator no Elixir.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `reports_generator` to your list of dependencies in `mix.exs`:
+Tecnologias Usadas:
 
-```elixir
-def deps do
-  [
-    {:reports_generator, "~> 0.1.0"}
-  ]
-end
-```
+* Elixir
+* Erlang
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/reports_generator](https://hexdocs.pm/reports_generator).
+Como Executar:
 
+* Após clonar o repositório, em um Terminal execute os seguintes comandos:
+
+* iex -S mix
+
+* :timer.tc(fn -> ReportsGenerator.build_from_many(["report_1.csv", "report_2.csv", "report_3.csv"]) end)
+
+Importante:
+
+* Você deve possuir um ambiente apto a executar o Elixir.
